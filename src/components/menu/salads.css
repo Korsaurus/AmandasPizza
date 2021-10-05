@@ -1,0 +1,12 @@
+#salads {
+    border: 2px solid black;
+    background-color: #0078B3;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#saladbg {
+    background-image: url(../../utils/salad.jpg);
+    background-attachment: fixed;
+    z-index: 5;
+}

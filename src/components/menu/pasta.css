@@ -1,0 +1,12 @@
+#pasta {
+    border: 2px solid black;
+    background-color: #0078B3;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#pastabg {
+    background-image: url(../../utils/pasta.jpg);
+    background-attachment: fixed;
+    z-index: 4;
+}

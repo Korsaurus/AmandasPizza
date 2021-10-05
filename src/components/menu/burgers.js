@@ -1,58 +1,58 @@
 import React from "react";
+import "./burgers.css"
 
 export class BurgerMenu extends React.Component {
 
     render() {
         return (
-            <div><h3>BURGERS & SUBS</h3>
+            <div id="burgerbg">
+            <div id="burger"><h3>BURGERS & SUBS</h3>
 
-            BURGERS
-                    all burgers are made with 1 - 1/4 pound hand pressed all-beef patties
-            
-            AMANDA'S BOLD BURGER        8.00
-                    2 patties, bold BBQ sauce, cheddar cheese with onion rings on the burger
-                    with pickles, onions, tomato, lettuce and Amanda's special sauce
-            MUSHROOM BURGER        6.50
-                    Amanda's Famouse mushroom sauce and sauted mushrooms
-            PIZZA BURGER        6.50
-                    with pizza sauce,pepperoni and mozza cheese
-            CHEESE BURGER        6.25
-                    cheddar, lettuce, onions, pickles, Amanda's special sauce
-            ROCKY BURGER        7.00
-                    bacon, cheese, ham, onions, pickles, Amanda's special sauce
-            REGULAR BURGER        5.50
-                    lettuce, tomato, onions, pickles, Amanda's special sauce
-            BACON CHEESE BURGER        6.75
-                    bacon, cheddar, lettuce, onions, pickles, Amanda's special sauce
-            BBQ PULLED PORK BURGER        5.75
-                    bbq pulled pork, bannana peppers and lettuce
-            NITRO BURGER         6.50
-                    hot sauce, jalapenos, lettuce and cheddar
-            CRISPY CHICKEN BURGER        6.50
-                    breaded chicken breast, mayo, tomato and lettuce
-            CHICKEN CORDON BLEU BURGER        =7.00
-                    breaded chicken breast, ham, mozza cheese and ranch dressing
-            SPICY CHICKEN BURGER        6.50
-                    breaded chicken breast, FRANKS red hot and ranch
-            
-            ADD an extra beef patty to your burger      2.75
-            
-            SUBS
-                    all subs are served on homemade buns
-                    choice of toasted, heated or heated at home
-            
-            DONAIR        7.50
-                    donair meat, onions, tomatoes, cheese and garlic sauce
-            PIZZA LOAF        7.50
-                    pepperoni, ham, onions, cheese and pizza sauce
-            HAM AND CHEDDAR        7.25
-                    ham, cheddar, mayo and mustard
-            BBQ CHICKEN        8.75
-                    bbq chicken, onions, green peppers and cheese
-            CHICKEN CLUB        8.75
-                    chicken, bacon, toms, lettuce and cheese
-            PHILLY CHEESE        8.75
-                    roast beef, onions, green peppers, mayo and cheddar cheese</div>
+                <p><strong>BURGERS</strong><br /><br />
+                    All burgers are made with 1 1/4 pound hand pressed all-beef patties<br /><br /><br />
+
+                    <strong>AMANDA'S BOLD BURGER</strong> $8.00<br />
+                    <em>2 patties, bold BBQ sauce, cheddar cheese with onion rings on the burger with pickles, onions, tomato, lettuce and Amanda's special sauce.</em> <br /><br />
+                    <strong>MUSHROOM BURGER</strong> $6.50<br />
+                    <em>Amanda's Famouse mushroom sauce and sauted mushrooms</em><br /><br />
+                    <strong>PIZZA BURGER</strong> $6.50<br />
+                    <em>with pizza sauce, pepperoni and mozza cheese</em><br /><br />
+                    <strong>CHEESE BURGER</strong> $6.25<br />
+                    <em>cheddar, lettuce, onions, pickles, Amanda's special sauce</em><br /><br />
+                    <strong>ROCKY BURGER</strong> $7.00<br />
+                    <em>bacon, cheese, ham, onions, pickles, Amanda's special sauce</em><br /><br />
+                    <strong>REGULAR BURGER</strong> $5.50<br />
+                    <em>lettuce, tomato, onions, pickles, Amanda's special sauce</em><br /><br />
+                    <strong>BACON CHEESE BURGER</strong> $6.75<br />
+                    <em>bacon, cheddar, lettuce, onions, pickles, Amanda's special sauce</em><br /><br />
+                    <strong>BBQ PULLED PORK BURGER</strong> $5.75<br />
+                    <em>bbq pulled pork, bannana peppers and lettuce</em><br /><br />
+                    <strong>NITRO BURGER</strong> $6.50<br />
+                    <em>hot sauce, jalapenos, lettuce and cheddar</em><br /><br />
+                    <strong>CRISPY CHICKEN BURGER</strong> $6.50<br />
+                    <em>breaded chicken breast, mayo, tomato and lettuce</em><br /><br />
+                    <strong>CHICKEN CORDON BLEU BURGER</strong> $7.00<br />
+                    <em>breaded chicken breast, ham, mozza cheese and ranch dressing</em><br /><br />
+                    <strong>SPICY CHICKEN BURGER</strong> $6.50<br />
+                    <em>breaded chicken breast, FRANKS red hot and ranch</em><br /><br />
+
+                    <strong>ADD an extra beef patty to your burger</strong> $2.75<br /><br /><br />
+
+                    <strong>SUBS</strong><br />
+                    All subs are served on homemade buns choice of toasted, heated or heated at home.<br /><br />
+
+                    <strong>DONAIR</strong> $7.50<br />
+                    <em>donair meat, onions, tomatoes, cheese and garlic sauce</em><br />
+                    <strong>PIZZA LOAF</strong> $7.50<br />
+                    <em>pepperoni, ham, onions, cheese and pizza sauce</em><br />
+                    <strong>HAM AND CHEDDAR$</strong> $7.25<br />
+                    <em>ham, cheddar, mayo and mustard</em><br />
+                    <strong>BBQ CHICKEN</strong> $8.75<br />
+                    <em>bbq chicken, onions, green peppers and cheese</em><br />
+                    <strong>CHICKEN CLUB</strong> $8.75<br />
+                    <em>chicken, bacon, toms, lettuce and cheese</em><br />
+                    <strong>PHILLY CHEESE</strong> $8.75<br />
+                    <em>roast beef, onions, green peppers, mayo and cheddar cheese</em></p></div></div>
         )
     }
 }

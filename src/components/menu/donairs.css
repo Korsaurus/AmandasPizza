@@ -1,0 +1,15 @@
+#donair {
+    border: 2px solid black;
+    background-color: #0078B3;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;   
+    height: 500px; 
+}
+#donairbg {
+    background-image: url(../../utils/Donair.jpg);
+    background-position: fixed;
+    z-index: 3;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
