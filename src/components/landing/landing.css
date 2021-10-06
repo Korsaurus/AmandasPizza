@@ -1,15 +1,10 @@
 .landingpage {
     border: 2px solid black;
-    background-color: #0078B3;
-    width: 50%;
+    background-color: black;
+    color: white;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-}
-#reeee {
-    background-image: url(../../utils/spread.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: auto;
 }
 
 .title {

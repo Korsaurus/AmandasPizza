@@ -5,7 +5,10 @@
 #page {
     font-size: 24px;
     text-align: center;
-    
+    background-image: url(../../utils/bricks.webp);
+    background-position: fixed;
+    z-index: 1;
+    background-repeat: repeat;
 }
 #content {
     width: 100%;

@@ -1,14 +1,28 @@
 #location {
   border: 2px solid black;
-  background-color: #0078b3;
-  width: 50%;
+  background-color: black;
+  color: white;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 #about {
   border: 2px solid black;
-  background-color: #0078b3;
-  width: 50%;
+  background-color: black;
+  color: white;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+}
+.amanda {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+#me {
+    font-size: 8px;
+    color: black;
+}
+#me:hover {
+    color: white;
 }

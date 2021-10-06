@@ -6,7 +6,7 @@ export class ExtrasMenu extends React.Component {
     render() {
         return (
             <><div id="extrasbg">
-                <div id="extras"><h3>EXTRAS</h3>
+                <div id="extras"><h3>EXTRAS</h3> <br />
                     <p><strong>ONION RINGS</strong> $5.50<br /><br />
                         <strong>BATTERED MUSHROOMS</strong> $9.50 <br /><br />
                         <strong>DEEP FRIED PICKLE SPEARS</strong> $9.50<br /><br />

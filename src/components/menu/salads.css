@@ -4,9 +4,11 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    background-color: black;
+    color: white;
 }
 #saladbg {
-    background-image: url(../../utils/salad.jpg);
+    background-image: url(../../utils/salad.webp);
     background-attachment: fixed;
     z-index: 5;
 }

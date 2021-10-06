@@ -7,7 +7,7 @@ class Header extends React.Component {
             <div className="header" id="home">
                 <h1>Amanda's Pizza</h1>
                 <br />
-                <p><em>Small town atmosphere, big city taste</em></p>
+                <p><em>Small town hospitality, big city taste</em></p>
             </div>
         )
     }

@@ -1,12 +1,15 @@
 #munchies {
     border: 2px solid black;
-    background-color: #0078B3;
+    background-color: black;
+    color: white;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 #munchiesbg {
-    background-image: url(../../utils/munchies.png);
+    background-image: url(../../utils/munchies.webp);
     background-attachment: fixed;
     z-index: 8;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

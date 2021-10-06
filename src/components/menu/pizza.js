@@ -7,18 +7,18 @@ export class PizzaMenu extends React.Component {
         return (
             <div id="pizzabg">
                 <div id="pizza"><h3> PIZZA</h3>
-                    <p> <h4>Build Your Own Pizza</h4>
-                        Start with our homemade pizza sauce and mozza cheese<br /><br />
-                        <strong>&nbsp;&nbsp;10"&nbsp;&nbsp;&nbsp; One Topping: </strong> $11.00 <strong> Two Topping: </strong> $14.50 <strong> Three Topping: </strong> $17.50<br /><br />
-                        <strong>12"&nbsp;&nbsp;&nbsp; One Topping :</strong> $14.50 <strong>Two Topping: </strong> 15.75 <strong> Three Topping: </strong> $17.00 <br /><br />
-                        <strong>&nbsp;&nbsp;14"&nbsp;&nbsp;&nbsp; One Topping: </strong>$17.50 <strong> Two Topping: </strong> $18.75 <strong> Three Topping:</strong> $20.00 <br /><br />
-                        <strong>Extra Toppings</strong><br /> $2.00 each for small, $2.50 for medium, $3.00 for large.<br /><br />
+                    <h4>Build Your Own Pizza</h4>
+                    <p> Start with our homemade pizza sauce and mozza cheese<br /><br />
+                        <strong>&nbsp;&nbsp;10"<br />&nbsp;&nbsp;&nbsp; One Topping: </strong> $11.00<br /> <strong> Two Topping: </strong> $14.50 <br /><strong> Three Topping: </strong> $17.50<br /><br />
+                        <strong>12"<br />&nbsp;&nbsp;&nbsp; One Topping :</strong> $14.50<br /> <strong>Two Topping: </strong> 15.75 <br /><strong> Three Topping: </strong> $17.00 <br /><br />
+                        <strong>&nbsp;&nbsp;14"<br />&nbsp;&nbsp;&nbsp; One Topping: </strong>$17.50<br /> <strong> Two Topping: </strong> $18.75 <br /><strong> Three Topping:</strong> $20.00<br /> <br /><br />
+                        <strong>Extra Toppings</strong><br /> $2.00 each for <strong>10"</strong><br /> $2.50 for <strong>12"</strong><br />$3.00 for <strong>14"</strong> <br /><br />
                         <em>extra cheese, feta, cheddar, ham, pepperoni, beef,onions, olives, mushrooms, green peppers, tomatoes, bacon, pineapple, jalapeno peppers, banana peppers, italian sausage, donair meat, chicken.</em><br /><br />
 
                         <strong>Dippers<br /></strong> <em>hot sauce, sweet sauce, garlic sauce, ranch, chipotle cheddar, dill dip, spicy ranch</em> $0.75 each. <br /><br />
                         <strong>Keto? No Carbs? Low Carbs? We'll bake your pizza in a bowl instead of a crust!</strong><br /><br /><br />
                         <strong>Our Pizzas</strong> <br />
-                        <strong>10"</strong> $14.50    <strong>12"</strong> $18.00 <strong>14"</strong> $21.75 <br /><br />
+                        <strong>10"</strong> $14.50  <br />  <strong>12"</strong> $18.00 <br /><strong>14"</strong> $21.75 <br /><br />
                         <strong>ALL MEAT</strong><br />
                         <em>ham, pepperoni, beef, bacon and italian sausage</em><br /><br />
                         <strong>GREEK PIZZA</strong><br />

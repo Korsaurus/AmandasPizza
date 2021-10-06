@@ -1,0 +1,36 @@
+.outer {
+  background-color: white;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+.pizza,
+.donair,
+.burger,
+.pasta,
+.salad,
+.extra,
+.munch {
+  border-bottom: 1px solid red;
+  font-size: 30px;
+}
+.pizza {
+  border-top: 1px dashed black;
+}
+.menuo {
+  border-bottom: none;
+  font-size: 50px;
+  background-color: black;
+  color: white;
+}
+.menuc {
+  background-color: black;
+  color: white;
+  height: 80px;
+  font-size: 50px;
+}
+.Collapsible__trigger:hover {
+    cursor:pointer;
+}
