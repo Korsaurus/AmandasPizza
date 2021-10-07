@@ -1,28 +1,9 @@
-#extras {
+#extras, #poutine {
     border: 2px solid black;
-    background-color: black;
-    color: white;
-    width: 50%;
+    background-color: white;
+    color: black;
     margin-left: auto;
     margin-right: auto;
     border-bottom: none;
-}
-#poutine {
-    border: 2px solid black;
-    background-color: black;
-    color: white;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
     border-top: none;
-}
-#extrasbg {
-    background-image: url(../../utils/extras.webp);
-    background-attachment: fixed;
-    z-index: 6;
-}
-#poutinebg {
-    background-image: url(../../utils/poutine.webp);
-    background-attachment: fixed;
-    z-index: 7;
 }

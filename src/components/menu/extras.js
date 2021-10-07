@@ -1,42 +1,90 @@
 import React from "react";
 import "./extras.css"
+import onion from "../../utils/onionrings.jpg"
+import shrooms from "../../utils/shrooms.jpg"
+import pickle from "../../utils/pickles.jpg"
 
 export class ExtrasMenu extends React.Component {
 
     render() {
         return (
-            <><div id="extrasbg">
+            <>
                 <div id="extras"><h3>EXTRAS</h3> <br />
-                    <p><strong>ONION RINGS</strong> $5.50<br /><br />
-                        <strong>BATTERED MUSHROOMS</strong> $9.50 <br /><br />
-                        <strong>DEEP FRIED PICKLE SPEARS</strong> $9.50<br /><br />
-                        <strong>DRY GARLIC RIBS</strong> $10.50<br /><br />
-                        <strong>FRENCH FRIES</strong> $4.25<br /><br />
-                        <strong>MOZZARELLA STICKS</strong> $9.50<br /><br />
-                        <strong>STUFFED JALAPENOS</strong> $9.50<br /><br />
-                        <strong>MAC AND CHEESE BITES</strong> $9.50<br /><br />
-                        <strong>GARLIC TOAST</strong> $1.50<br /><br /></p>
-                </div></div>
-                <div id="poutinebg">
-                    <div id="poutine">
-                        <p><strong>POUTINES</strong><br /><br />
-                            <em>Regular Poutine</em> $7.50<br /><br />
-                            <em>Salsbury</em> $8.75<br /><br />
-                            <em>Bacon</em> $8.75<br /><br />
-                            <em>TBA</em> $9.00<br /><br />
-                            <em>Triple Pork</em> $9.00<br /><br />
-                            <em>Taco Poutine</em> $9.00<br /><br />
-                            <em>Italian Cheese</em> $7.75<br /><br />
-                            <em>80'S Cafeteria Style</em> $7.00<br /><br />
-                            <em>Donair Bowl</em> $8.75<br /><br />
+                    <div className="item-container">
 
-                            <strong>BEVERAGES</strong><br />
-                            <em>2L Pop</em> $23.00<br />
-                            <em>Can Pop</em> $1.50<br />
-                            <em>Can 6 Pack</em> $7.00<br />
-                            <em>Chocolate Milk</em> $2.25<br />
-                            <em>Bottled Water</em> $1.50<br />
-                            <em>Energy Drinks</em> $2.75</p></div>
+                        <div className="item">
+                        <img src={onion} alt="Menu Item" className="item-image"></img><br />
+                            <strong>ONION RINGS</strong> $5.50<br /><br />
+                        </div>
+                        <div className="item">
+                        <img src={shrooms} alt="Menu Item" className="item-image"></img><br />
+                            <strong>BATTERED MUSHROOMS</strong> $9.50 <br /><br />
+                        </div>
+                        <div className="item">
+                        <img src={pickle} alt="Menu Item" className="item-image"></img><br />
+                            <strong>DEEP FRIED PICKLE SPEARS</strong> $9.50<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>DRY GARLIC RIBS</strong> $10.50<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>FRENCH FRIES</strong> $4.25<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>MOZZARELLA STICKS</strong> $9.50<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>STUFFED JALAPENOS</strong> $9.50<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>MAC AND CHEESE BITES</strong> $9.50<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>GARLIC TOAST</strong> $1.50<br /><br />
+                        </div>
+                    </div>
+                </div>
+                <div id="poutine">
+                    <br />
+                    <strong>POUTINES</strong><br /><br />
+                    <div className="item-container">
+                        <div className="item">
+                            <strong>Regular Poutine </strong> $7.50<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>Salsbury </strong> $8.75<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>Bacon </strong> $8.75<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>TBA </strong> $9.00<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>Triple Pork </strong> $9.00<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>Taco Poutine </strong> $9.00<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>Italian Cheese </strong> $7.75<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>80'S Cafeteria Style </strong> $7.00<br /><br />
+                        </div>
+                        <div className="item">
+                            <strong>Donair Bowl </strong> $8.75<br /><br />
+                        </div>
+                    </div>
+                    <div>
+                        <strong>BEVERAGES</strong><br /><br />
+                        <strong>2L Pop: </strong> $23.00<br />
+                        <strong>Can Pop: </strong> $1.50<br />
+                        <strong>Can 6 Pack: </strong> $7.00<br />
+                        <strong>Chocolate Milk: </strong> $2.25<br />
+                        <strong>Bottled Water: </strong> $1.50<br />
+                        <strong>Energy Drinks: </strong> $2.75
+                    </div>
                 </div>
             </>
         )
