@@ -1,7 +1,6 @@
 import React from "react";
 import "./pasta.css"
 import fettucc from "../../utils/fettucc.jpg"
-import seafood from "../../utils/seafoodfettucc.jpg"
 import lasaga from "../../utils/lasaga.jpg"
 
 export class PastaMenu extends React.Component {
@@ -27,7 +26,7 @@ export class PastaMenu extends React.Component {
                             ADD CHICKEN: $2.50<br /><br />
                         </div>
                         <div className="item-right">
-                        <img src={seafood} alt="Menu Item" className="item-image"></img><br />
+                        <br />
                             <strong>SEAFOOD FETTUCCINI</strong>
                             $11.25<br />
                             <em>fettuccini pasta with alfredo sauce, <br /> shrimp and crab meat</em><br /><br />
