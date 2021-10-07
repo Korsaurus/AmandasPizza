@@ -1,34 +1,35 @@
 .header {
     position: relative;
     text-align: center;
-    width: 100%;
+    width: 85%;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
-    background-image:  url("../../utils/pizza.webp");
+    margin-bottom: 40px;
+    background-image:  url("../../utils/headerpizza.jpg");
     background-size: cover;
     background-position-y: center;
 }
 
 h1 {
+    font-weight: bold;
     position: relative;
-    top: 60px;
+    top: 50px;
     font-size: 5em;
-    color: #0078b3;
-    outline: black;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #dda900;
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
 .header p {
     position: relative;
-    top: 60px;
-    color:#0078b3;
+    top: 50px;
+    color:#dda900;
     font-size: 35px;
     font-weight: bold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 3em;
+      font-size: 2.7em;
     }
     .header p {
         font-size: 25px;

@@ -24,15 +24,24 @@
   font-size: 50px;
   background-color: black;
   color: white;
-  content: '\2796'; /* Unicode character for "plus" sign (+) */
 }
 .menuc {
   background-color: black;
   color: white;
-  height: 80px;
   font-size: 50px;
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
 }
 .Collapsible__trigger:hover {
-    cursor:pointer;
+  cursor: pointer;
+}
+.Collapsible__trigger {
+  display: block;
+}
+.Collapsible__trigger:after {
+  color: white;
+  content: "\2b9f ";
+  display: block;
+  transition: transform 300ms;
+}
+.Collapsible__trigger.is-open:after {
+  transform: rotateZ(180deg);
 }

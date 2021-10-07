@@ -9,7 +9,8 @@
   display: grid;
   grid-template-columns: 50% 50%;
 }
-
-.item {
-  border-right: 1px solid black;
+@media only screen and (max-width: 600px) {
+    .item-container-donair {
+        grid-template-columns: 100%;
+    }
 }
