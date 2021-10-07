@@ -17,7 +17,7 @@ h1 {
     top: 50px;
     font-size: 5em;
     color: #dda900;
-    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 6.5px 7.5px 0 #000;
 }
 .header p {
     position: relative;
