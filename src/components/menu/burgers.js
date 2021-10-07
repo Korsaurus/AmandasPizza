@@ -14,17 +14,17 @@ export class BurgerMenu extends React.Component {
                     All burgers are made with 1 1/4 pound hand pressed all-beef patties<br /><br /><br />
                     <div className="item-container">
                         <div className="item">
-                        <img src={boldburger} alt="Menu Item" className="item-image"></img>
+                        <img src={boldburger} alt="Menu Item" className="item-image"></img><br />
                             <strong>AMANDA'S BOLD BURGER</strong> $8.00<br />
                             <em>2 patties, bold BBQ sauce, cheddar cheese with onion rings on the burger with pickles, onions, tomato, lettuce and Amanda's special sauce.</em> <br /><br />
                         </div>
                         <div className="item">
-                        <img src={mushburg} alt="Menu Item" className="item-image"></img>
+                        <img src={mushburg} alt="Menu Item" className="item-image"></img><br />
                             <strong>MUSHROOM BURGER</strong> $6.50<br />
                             <em>Amanda's Famouse mushroom sauce and sauted mushrooms</em><br /><br />
                         </div>
                         <div className="item">
-                        <img src={burgerpizza} alt="Menu Item" className="item-image"></img>
+                        <img src={burgerpizza} alt="Menu Item" className="item-image"></img><br />
                             <strong>PIZZA BURGER</strong> $6.50<br />
                             <em>with pizza sauce, pepperoni and mozza cheese</em><br /><br />
                         </div>
