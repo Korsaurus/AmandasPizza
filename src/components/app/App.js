@@ -12,7 +12,7 @@ export function App() {
                 {/* <Cart />  */}
                 <Header />
                 <Landing />
-                <CollapseMenu defer />
+                <CollapseMenu />
                 <Footer />
             </div>
         </div>

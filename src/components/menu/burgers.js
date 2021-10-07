@@ -15,13 +15,13 @@ export class BurgerMenu extends React.Component {
                     <div className="item-container">
                         <div className="item">
                         <img src={boldburger} alt="Menu Item" className="item-image"></img><br />
-                            <strong>AMANDA'S BOLD BURGER</strong> $8.00<br />
-                            <em>2 patties, bold BBQ sauce, cheddar cheese with onion rings on the burger with pickles, onions, tomato, lettuce and Amanda's special sauce.</em> <br /><br />
+                            <strong>GREGORI'S BOLD BURGER</strong> $8.00<br />
+                            <em>2 patties, bold BBQ sauce, cheddar cheese with onion rings on the burger with pickles, onions, tomato, lettuce and Gregori's special sauce.</em> <br /><br />
                         </div>
                         <div className="item">
                         <img src={mushburg} alt="Menu Item" className="item-image"></img><br />
                             <strong>MUSHROOM BURGER</strong> $6.50<br />
-                            <em>Amanda's Famouse mushroom sauce and sauted mushrooms</em><br /><br />
+                            <em>Gregori's Famouse mushroom sauce and sauted mushrooms</em><br /><br />
                         </div>
                         <div className="item">
                         <img src={burgerpizza} alt="Menu Item" className="item-image"></img><br />
@@ -30,19 +30,19 @@ export class BurgerMenu extends React.Component {
                         </div>
                         <div className="item">
                             <strong>CHEESE BURGER</strong> $6.25<br />
-                            <em>cheddar, lettuce, onions, pickles, Amanda's special sauce</em><br /><br />
+                            <em>cheddar, lettuce, onions, pickles, Gregori's special sauce</em><br /><br />
                         </div>
                         <div className="item">
                             <strong>ROCKY BURGER</strong> $7.00<br />
-                            <em>bacon, cheese, ham, onions, pickles, Amanda's special sauce</em><br /><br />
+                            <em>bacon, cheese, ham, onions, pickles, Gregori's special sauce</em><br /><br />
                         </div>
                         <div className="item">
                             <strong>REGULAR BURGER</strong> $5.50<br />
-                            <em>lettuce, tomato, onions, pickles, Amanda's special sauce</em><br /><br />
+                            <em>lettuce, tomato, onions, pickles, Gregori's special sauce</em><br /><br />
                         </div>
                         <div className="item">
                             <strong>BACON CHEESE BURGER</strong> $6.75<br />
-                            <em>bacon, cheddar, lettuce, onions, pickles, Amanda's special sauce</em><br /><br />
+                            <em>bacon, cheddar, lettuce, onions, pickles, Gregori's special sauce</em><br /><br />
                         </div>
                         <div className="item">
                             <strong>BBQ PULLED PORK BURGER</strong> $5.75<br />

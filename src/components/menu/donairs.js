@@ -9,11 +9,11 @@ export class DonairMenu extends React.Component {
         return (
             <div id="donairbg">
                 <div id="donair"><h3>DONAIRS</h3>
-                    <strong>Made from Amanda's own recipe - so big we don't need to call it "JUMBO"</strong><br /><br />
+                    <strong>Made from Gregori's own recipe - so big we don't need to call it "JUMBO"</strong><br /><br />
                     <div className="item-container-donair">
                         <div className="item">
                             <img src={regdonair} alt="Menu Item" className="item-image"></img> <br />
-                            <strong>REGULAR DONAIR</strong><br /><em>100% all beef wrapped in a <strong>12"</strong> pita with tomatoes, onions and lettuce with your <br />choice of Amanda's own homemade Garlic or sweet sauce - $9.00<br /> Add Mozza Cheese $1.50</em><br /><br />
+                            <strong>REGULAR DONAIR</strong><br /><em>100% all beef wrapped in a <strong>12"</strong> pita with tomatoes, onions and lettuce with your <br />choice of Gregori's own homemade Garlic or sweet sauce - $9.00<br /> Add Mozza Cheese $1.50</em><br /><br />
                         </div>
                         <div className="item">
                             <img src={chickdonair} alt="Menu Item" className="item-image"></img> <br />

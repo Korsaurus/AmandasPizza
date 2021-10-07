@@ -14,17 +14,17 @@ export class MunchiesMenu extends React.Component {
                 <div className="item-container">
                     <div className="item">
                     <img src={extras1} alt="Menu Item" className="item-image"></img><br />
-                        <strong>AMANDA'S FAMILY PLATTER</strong> $32.50<br />
+                        <strong>Gregori'S FAMILY PLATTER</strong> $32.50<br />
                         <em>mozza sticks, onion rings, dry ribs, poato wedges, battered mushrooms, and wings</em><br /><br />
                     </div>
                     <div className="item">
                     <img src={extras2} alt="Menu Item" className="item-image"></img><br />
-                        <strong>AMANDA'S PLATTER FOR TWO</strong> $23.50<br />
+                        <strong>Gregori'S PLATTER FOR TWO</strong> $23.50<br />
                         <em>smaller version of the family platter</em><br /><br />
                     </div>
                     <div className="item">
                     <img src={extras3} alt="Menu Item" className="item-image"></img><br />
-                        <strong>AMANDA'S "42" PLATTER</strong> $42.00<br />
+                        <strong>Gregori'S "42" PLATTER</strong> $42.00<br />
                         <em>dry ribs, mac N cheese bites, BBQ meatballs, nuggets, garlic bites, nachos and pickle spears</em><br /><br />
                     </div>
                     <div className="item">
