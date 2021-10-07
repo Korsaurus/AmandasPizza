@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css"
-import amanda from "../../utils/amanda.webp"
+import amanda from "../../utils/amanda.jpg"
 
 export class Footer extends React.Component {
     render() {
