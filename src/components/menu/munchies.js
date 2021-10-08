@@ -1,8 +1,8 @@
 import React from "react";
 import "./munchies.css"
-import extras1 from "../../utils/extras1.jpg"
-import extras2 from "../../utils/extras2.jpg"
-import extras3 from "../../utils/extras3.jpg"
+import extras1 from "../../utils/extras1.webp"
+import extras2 from "../../utils/extras2.webp"
+import extras3 from "../../utils/extras3.webp"
 
 export class MunchiesMenu extends React.Component {
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "./pasta.css"
-import fettucc from "../../utils/fettucc.jpg"
-import lasaga from "../../utils/lasaga.jpg"
+import fettucc from "../../utils/fettucc.webp"
+import lasaga from "../../utils/lasaga.webp"
 
 export class PastaMenu extends React.Component {
 

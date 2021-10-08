@@ -1,8 +1,8 @@
 import React from "react";
 import "./pizza.css"
-import meatpizza from "../../utils/meatpizza.jpg"
-import greekpizza from "../../utils/greekpizza.jpg"
-import veggiepizza from "../../utils/veggiepizzaa.jpg"
+import meatpizza from "../../utils/meatpizza.webp"
+import greekpizza from "../../utils/greekpizza.webp"
+import veggiepizza from "../../utils/veggiepizzaa.webp"
 
 export class PizzaMenu extends React.Component {
 

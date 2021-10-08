@@ -1,8 +1,8 @@
 import React from "react";
 import "./burgers.css"
-import mushburg from "../../utils/mushburg.jpg"
-import burgerpizza from "../../utils/burgerpizza.png"
-import boldburger from "../../utils/boldburger.jpg"
+import mushburg from "../../utils/mushburg.webp"
+import burgerpizza from "../../utils/burgerpizza.webp"
+import boldburger from "../../utils/boldburger.webp"
 
 export class BurgerMenu extends React.Component {
 

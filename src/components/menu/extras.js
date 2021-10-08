@@ -1,8 +1,8 @@
 import React from "react";
 import "./extras.css"
-import onion from "../../utils/onionrings.jpg"
-import shrooms from "../../utils/shrooms.jpg"
-import pickle from "../../utils/pickles.jpg"
+import onion from "../../utils/onionrings.webp"
+import shrooms from "../../utils/shrooms.webp"
+import pickle from "../../utils/pickles.webp"
 
 export class ExtrasMenu extends React.Component {
 

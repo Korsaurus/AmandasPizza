@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css"
-import gregori from "../../utils/gregori.jpg"
+import gregori from "../../utils/gregori.webp"
 
 export class Footer extends React.Component {
     render() {

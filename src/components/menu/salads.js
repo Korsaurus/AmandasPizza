@@ -1,6 +1,6 @@
 import React from "react";
 import "./salads.css"
-import salad from "../../utils/greeksalad.jpg";
+import salad from "../../utils/greeksalad.webp";
 
 
 export class SaladsMenu extends React.Component {
