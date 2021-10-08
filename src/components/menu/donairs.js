@@ -1,7 +1,7 @@
 import React from "react";
 import "./donairs.css"
 import regdonair from "../../utils/regdonair.webp"
-import chickdonair from "../../utils/chickendonair.jpg"
+import chickdonair from "../../utils/chickendonair.webp"
 
 export class DonairMenu extends React.Component {
 
