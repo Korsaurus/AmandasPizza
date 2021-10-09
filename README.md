@@ -1,4 +1,1 @@
-A website for a local pizza place built using React. <br />
-My goal is to become a Full-Stack Dev, so I am currently working on implementing Online Ordering to learn the basics. <br />
-Live Demo: https://gregorispizza.netlify.app/ <br />
-Also has a perfect lighthouse score ;)
+This is the branch for testing implementing the online ordering. I put in the skeleton of the code I now need to refactor it and make it work with the base code.
