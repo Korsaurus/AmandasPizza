@@ -3,17 +3,24 @@ import Header from '../Header/header';
 import Landing from '../landing/landing';
 import { Footer } from '../location/footer';
 import { CollapseMenu } from '../collapsibles/collapsible';
-// import { Cart } from '../cart/cartexamplecode';
+import { Route, BrowserRouter as Router } from "react-router-dom";
+import OrderApp from '../Ordering/orderapp/orderapp';
 
 export function App() {
     return (
         <div id="page">
             <div id="content">
-                {/* <Cart />  */}
-                <Header />
-                <Landing />
-                <CollapseMenu />
-                <Footer />
+                <Router>
+                    <Route path="/">
+                        <Header />
+                        <Landing />
+                        <CollapseMenu />
+                        <Footer />
+                    </Route>
+                    <Route path="/order">
+                        <OrderApp />
+                    </Route>
+                </Router>
             </div>
         </div>
     )
