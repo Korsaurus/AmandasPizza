@@ -11,7 +11,7 @@ import Context from "../../../Context";
 import axios from 'axios';
 import jwt_decode from 'jwt-decode';
 
-export default class App extends Component {
+export default class OrderApp extends Component {
     constructor(props) {
         super(props);
         this.state = {
